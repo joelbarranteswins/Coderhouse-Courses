@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- logo linkeado al home page -->
+        <!-- Menu de navegación de la 5 secciones -->
+        <a href="../index.html">
+          <img
+            src="../assets/favicon-16x16.png"
+            alt="logo del estudio de tatuajes"
+            width="50"
+          />
+        </a>
+        <ul>
+          <li><a href="../index.html#nosotros">Nosotros</a></li>
+          <li><a href="./pages/servicios.html">Servicios</a></li>
+          <li><a href="./pages/faq.html">FAQs</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contacto</h1>
+      <section>
+        <iframe
+          title="tattoe location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022396.4020626117!2d-81.34739350624997!3d-8.102196500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d9648509bc3%3A0x7cac122cfd6a3414!2sSolrak%20Tattoo!5e0!3m2!1ses-419!2spe!4v1712950942233!5m2!1ses-419!2spe"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <section>
+        <form action="">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Joel" />
+          <label for="correo">Correo Electornico</label>
+          <input
+            type="email"
+            name="email"
+            id="correo"
+            placeholder="correo@gmail.com"
+          />
+          <label for="celular">Celular</label>
+          <input
+            type="tel"
+            name="tel"
+            id="celular"
+            placeholder="+51 123456789"
+          />
+          <label for="tatuador">Elige tu tatuador</label>
+          <select name="tattoer" id="tatuador">
+            <option value="Fernando">Fernando</option>
+            <option value="Juan">Juan</option>
+            <option value="Pedro">Pedro</option>
+          </select>
+          <label for="mensaje">Mensaje</label>
+          <textarea name="message" id="mensaje" cols="30" rows="10"></textarea>
+          <input type="submit" value="Enviar" class="btn-submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright</p>
+      <nav>
+        <!-- iconos rrss linkeados -->
+      </nav>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
