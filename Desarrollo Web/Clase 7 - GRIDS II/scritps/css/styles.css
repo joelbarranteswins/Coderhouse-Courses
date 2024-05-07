@@ -318,48 +318,6 @@ svg {
   border-radius: 1%;
 }
 
-.galeria-image-one {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.galeria-image-two {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-}
-
-.galeria-image-three {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
-
-.galeria-image-four {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-
-.galeria-image-five {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-}
-
-.galeria-image-six {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-}
-
-.galeria-image-seven {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
-
-.galeria-image-eight {
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
-}
-
-
-
 /* mobile */
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .layout {
